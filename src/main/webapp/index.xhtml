@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+	<title>Jakarta EE 9 </title>
+</h:head>
+<h:body>
+	<h:outputText value="#{indexController.welcomeMessage}" />
+	<h:form>
+		<h:commandButton action="#{indexController.ping}" value="Get Server Date"/>
+	</h:form>
+</h:body>
+</html>
